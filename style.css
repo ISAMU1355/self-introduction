@@ -1,0 +1,45 @@
+body {
+    background-color: #f9f9f9; /* 薄いグレー系で全体を優しい印象に */
+    color: #333333; /* 文字は濃いグレーで読みやすく */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  .header {
+    background-color: #a8d5ba; /* 薄いグリーン系 */
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 8px;
+    color: #2f4f4f; /* 落ち着いた濃いグリーン */
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .career, .hobby {
+    background-color: #f0f4f8; /* 薄いブルー系 */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  h1, p, li {
+    margin: 0 0 10px 0;
+  }
+  
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  .hobby p {
+    font-size: 0.9em;
+    color: #666666;
+    margin-top: 6px;
+  }
+  
